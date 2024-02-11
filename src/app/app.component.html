@@ -1,0 +1,6 @@
+<div *ngFor="let item of buyList">
+  <span>Nombre: {{ item.name | capitalText }} </span>
+  <span>Precio: {{ item.price | currency}} </span>
+  <span>Fecha: {{ item.date | date: 'dd/MMM/yyyy'}} </span>
+</div>
+
